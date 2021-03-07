@@ -37,11 +37,11 @@ summary {
 }
 
 /* ANCHOR odstranění pojebaný šipky u dropdown věcí */
-details>summary:first-of-type {
+details > summary:first-of-type {
   list-style-type: none;
 }
 
-details>summary {
+details > summary {
   display: block;
 }
 
@@ -49,11 +49,11 @@ summary::-webkit-details-marker {
   font-size: 0px;
 }
 
-details>summary {
+details > summary {
   list-style: none;
 }
 
-details>summary::-webkit-details-marker {
+details > summary::-webkit-details-marker {
   display: none;
 }
 
@@ -100,11 +100,11 @@ details>summary::-webkit-details-marker {
 }
 
 .bg-line {
-  background-color: rgb(0, 119, 132, .7);
+  background-color: rgb(0, 119, 132, 0.7);
 }
 
 .login-text-container {
-  background-color: rgb(0, 119, 132, .7);
+  background-color: rgb(0, 119, 132, 0.7);
 }
 
 .login-heading {
@@ -232,7 +232,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 768px) {
-
   .search-area {
     position: absolute;
     left: 100%;
@@ -262,7 +261,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .search-area {
     width: 25%;
     margin-top: 12px;
@@ -275,15 +273,15 @@ details>summary::-webkit-details-marker {
 }
 
 .icon-search-input {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* NOTE nav admin */
 
 .main-nav-admin-mobile {
   width: 100%;
-  padding-top: .3rem;
-  padding-bottom: .2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -292,7 +290,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 768px) {
-
   .main-nav-admin-layout {
     position: relative;
     padding: 10px 0 10px 0;
@@ -314,11 +311,9 @@ details>summary::-webkit-details-marker {
   .main-nav-admin-desktop {
     position: relative;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
-
   .logo {
     padding-left: 5px;
   }
@@ -401,7 +396,6 @@ details>summary::-webkit-details-marker {
   }
 }
 
-
 /* NOTE produkt item */
 
 .product-image {
@@ -430,9 +424,8 @@ details>summary::-webkit-details-marker {
   }
 }
 
-
-
-@media only screen and (min-width: 410px) {}
+@media only screen and (min-width: 410px) {
+}
 
 .product-title,
 .product-text {
@@ -440,7 +433,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 790px) {
-
   .product-title,
   .product-text {
     padding: 0px 15px;
@@ -562,7 +554,6 @@ details>summary::-webkit-details-marker {
     max-width: 23rem;
   }
 }
-
 
 /* NOTE obsah košíku */
 .kosik-item-layout {
@@ -704,7 +695,7 @@ details>summary::-webkit-details-marker {
 
 .profil-order-nav {
   padding-bottom: 10px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .profil-h1 {
@@ -757,7 +748,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 375px) {
-
   .vypujcka-jmeno,
   .vypujcka-datum,
   .detail-vypujcky-texty,
@@ -768,7 +758,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 460px) {
-
   .vypujcka-jmeno,
   .vypujcka-datum {
     padding-left: 20px;
@@ -780,16 +769,13 @@ details>summary::-webkit-details-marker {
   }
 }
 
-
 @media only screen and (min-width: 460px) {
   .order-item {
     padding: 0 30px;
   }
 }
 
-
 @media only screen and (min-width: 680px) {
-
   .vypujcka-jmeno,
   .vypujcka-datum,
   .detail-vypujcky-texty,
@@ -819,7 +805,6 @@ details>summary::-webkit-details-marker {
 }
 
 @media only screen and (min-width: 560px) {
-
   .icon-active-desktop,
   .active-tablet {
     display: block;
@@ -853,7 +838,7 @@ details>summary::-webkit-details-marker {
   bottom: 0;
   left: 0;
   z-index: 9999999;
-  background-color: rgb(0, 0, 0, .5);
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
 .okno-nahled-dostupnosti {
@@ -988,7 +973,7 @@ details>summary::-webkit-details-marker {
 }
 
 .nav-seznam-zakazniku {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1045,20 +1030,20 @@ details>summary::-webkit-details-marker {
   width: 14px;
   height: 14px;
   position: absolute;
-  top: .5px;
+  top: 0.5px;
   right: 50%;
   background-color: #eee;
   border: 1px solid transparent;
   border-radius: 50%;
 }
 
-.toggle input:checked+.slider {
+.toggle input:checked + .slider {
   border: 2px solid var(--green);
   border-radius: 20px;
   background-color: var(--green);
 }
 
-.toggle input:checked+.slider::before {
+.toggle input:checked + .slider::before {
   left: 50%;
 }
 
@@ -1159,16 +1144,16 @@ details>summary::-webkit-details-marker {
   border-radius: 2px;
 }
 
-.checkbox-select:checked+.check-mark {
+.checkbox-select:checked + .check-mark {
   background-color: var(--green);
-  transition: .1s;
+  transition: 0.1s;
 }
 
-.checkbox-select:checked+.check-mark:after {
+.checkbox-select:checked + .check-mark:after {
   content: "";
   position: absolute;
   width: 6px;
-  transition: .1s;
+  transition: 0.1s;
   height: 3px;
   background: var(--green);
   top: 45%;
@@ -1179,7 +1164,7 @@ details>summary::-webkit-details-marker {
 }
 
 .secondary-select {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .check-arrow {
@@ -1194,7 +1179,6 @@ details>summary::-webkit-details-marker {
   padding-left: 5px;
 }
 
-
 @media only screen and (min-width: 760px) {
   .card {
     background: var(--white);
@@ -1204,12 +1188,12 @@ details>summary::-webkit-details-marker {
 }
 
 /* ANCHOR number input  */
-.number-input[type=number]::-webkit-inner-spin-button,
-.number-input[type=number]::-webkit-outer-spin-button {
+.number-input[type="number"]::-webkit-inner-spin-button,
+.number-input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.number-input[type=number] {
+.number-input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
@@ -1241,7 +1225,7 @@ details>summary::-webkit-details-marker {
 
 /* ANCHOR file input  */
 
-.file-input[type=file]::-webkit-file-upload-button {
+.file-input[type="file"]::-webkit-file-upload-button {
   border: none;
   background-color: var(--bg);
   padding: 8px 10px 4px 10px;
@@ -1251,7 +1235,7 @@ details>summary::-webkit-details-marker {
   font-family: "Hind", sans-serif;
 }
 
-.file-input[type=file]::file-selector-button {
+.file-input[type="file"]::file-selector-button {
   border: none;
   background-color: var(--bg);
   padding: 8px 10px 4px 10px;
@@ -1272,10 +1256,10 @@ input[type="checkbox"],
   display: none;
 }
 
-input[type="checkbox"]:checked~.checked {
+input[type="checkbox"]:checked ~ .checked {
   display: inline-block;
 }
 
-input[type="checkbox"]:checked~.unchecked {
+input[type="checkbox"]:checked ~ .unchecked {
   display: none;
 }

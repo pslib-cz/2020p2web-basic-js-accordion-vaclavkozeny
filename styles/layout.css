@@ -692,8 +692,6 @@ body {
 
 .detail-vypujcky-container {
   display: none;
-  overflow: hidden;
-  transition: height linear 0.5s;
 }
 
 .detail-vypujcky-item {
