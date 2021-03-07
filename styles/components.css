@@ -715,6 +715,8 @@ details > summary::-webkit-details-marker {
 .vypujcka-item {
   padding: 20px 0px;
   border-top: var(--lightBorder);
+  overflow: hidden;
+  transition: height linear 0.5s;
 }
 
 .vypujcka-item:last-of-type {
@@ -1262,4 +1264,11 @@ input[type="checkbox"]:checked ~ .checked {
 
 input[type="checkbox"]:checked ~ .unchecked {
   display: none;
+}
+.vypujcka-item {
+  overflow: hidden;
+  transition: height linear 0.5s;
+}
+.detail-vypujcky-container-layout {
+  height: 30px;
 }
