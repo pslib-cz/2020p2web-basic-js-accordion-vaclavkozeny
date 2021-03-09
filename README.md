@@ -9,7 +9,7 @@ Vhodnou úpravou stylů a případně kódu zajistěte, aby se rozbalení/sbalen
 ## Live code
 Zde bude odkaz na index soubor tohoto webu - zpřístupnění se dělá v *Settings* - *GitHub Pages*.
 Dále je třeba upravit URL - za *YOURLOGINNAME* doplnit vaše loginname v GitHubu.
-[Odkaz na tuto stránku "živě"](https://pslib-cz.github.io/2020p2web-basic-js-accordion-YOURLOGINNAME/index.html)
+[Odkaz na tuto stránku "živě"](https://pslib-cz.github.io/2020p2web-basic-js-accordion-vaclavkozeny/index.html)
 
 ## Syntaktické poznámky
 Metody pro nalezení kolekce HTML elementů
